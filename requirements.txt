@@ -1,0 +1,6 @@
+coverage==5.5
+ipython==5.10.0
+numpy==1.16.6
+pytest==4.6.11
+pytest-cov==2.12.1
+scipy==1.2.3
