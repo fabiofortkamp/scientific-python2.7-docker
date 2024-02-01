@@ -9,6 +9,9 @@ Libraries included:
 - Pytest
 - Coverage
 
+
+See [the requirements file](./requirements.txt) for more details and versions.
+
 ## Usage
 
 ```shell
