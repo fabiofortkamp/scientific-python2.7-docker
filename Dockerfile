@@ -16,6 +16,12 @@ RUN apt install -y libffi-dev liblzma-dev
 
 RUN apt install -y python2 python-pip libpython-all-dev libpython2-dev
 
-RUN pip2 install  -r requirements.txt
+RUN pip2 install numpy
+
+# Install scipy
+RUN apt install -y libopenblas-dev liblapack-dev pkg-config gfortran
+RUN apt install -y git
+
+# RUN pip2 install  -r requirements.txt
 
 CMD [ "python2"]
